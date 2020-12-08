@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Doom Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/png" href="/img/Logo.png"/>
+
+
+<style>
+  body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+  }
+  .snowflake {
+  color:honeydew;
+  font-size: 1.5em, 3;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+  }
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:10s, 8s}
+  /* Demo Purpose Only*/
+  .demo {
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+      text-align: center;
+  }
+</style>
+
+<body>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+  </div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="https://i.pinimg.com/originals/15/23/53/152353f9b82040e75af9b4835137ec71.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">DOOM ROMANIA ROLEPLAY</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">SHOP</h5>
+    <h3 class="w3-hide-medium w3-hide-small">SHOP</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Magazin</a>
+    <a href="#contact" class="w3-bar-item w3-button">Metode de plată</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Magazin</a>
+  <a href="#contact" class="w3-bar-item w3-button">Metode de plată</a>
+</div>
+</div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio" style="background-color: cornsilk; border-radius: 1.2%;">
+  
+  <center><h3>
+  【 Magazin DooM Romania 】
+  <br>
+  <br>
+  ★ LUCRURI PERSONALIZATE ★
+  <br>
+  -Mai jos veti gasi o lista cu chestiile personalizate pe care le poti achizitiona:
+  <br>
+  -Anumite bunuri de mai jos necesita si intretinere lunara !
+  <br>
+  <br>
+  ➧ Premium Avansat
+  <br>
+  Descriere: Acces la un meniu Premium unde ai mai multe beneficii. Acces la Fix Car,Pistol, Refa mancare si apa, Revive.
+  <br>
+  ➧80 euro [€] + intretinere lunara 5 euro
+  <br>
+  <br>
+  ➧ Premium Starter
+  Descriere: Acces la un meniu Premium unde ai mai multe beneficii. Acces la Fix Car, Revive.
+  ➧40 euro[€] + intretinere lunara 5 euro
+  <br>
+  <br>
+  ➧ Masina Personalizata
+  Descriere: O masina ADD-ON la alegere de pe www.gta5-mods.com
+  ➧30 EURO[€]
+  <br>
+  ➧ Skin Personalizat
+  Descriere: Un skin la alegere de pe www.gta5-mods.com.
+  ➧25 EURO[€] ( o singura data )
+  <br>
+  <br>
+  ➧ Creare rol personal pe Discord
+  Descriere: Un grad pe discord in care poti sa iti pui instagramu.
+  ➧20 EURO
+  DooM Romania Hard Roleplay
+  【 Magazin DooM Romania 】
+  ➧ Sanctiuni
+  <br>
+  Iti poti scoate ban-ul de maxim 2 ori, in cazul in care primesti a 3-a oara ban pretul va fi de €30
+  ➧Eliminare 2/3 Warn - 10€
+  ➧Eliminare 1 Saff Warn - 15€
+  ➧UnBan - €15
+  <br>
+  ➧ Bani in joc
+  ➧15.000$ - 5 euro
+  ➧30.000$ - 10 euro
+  ➧50.000$ - 20 euro
+  ➧100.000$ - 35 euro
+  ➧500.000$ - 60 euro
+  ➧1.000.000$ - 100 euro
+  <br>
+  <br>
+  ➧ Casa Personalizata
+  <br>
+  Pret standard : 20 euro
+  Pretul difera de la zona la interior
+  <br>
+  Mai jos este o lista cu toate interioarele :
+  <br>
+  ➧Trailer - low
+  ➧Lester - low
+  ➧HotelV2 - low/mediu
+  ➧Trevor - low/mediu
+  ➧ApartamentV2 - mediu
+  ➧HighEndV2 - mediu
+  ➧HighEndV1 - mediu
+  ➧Ranch - mediu
+  ➧Michaels - tank
+  ➧HotelV1 - tank
+  ➧ApartamentV1 - tank
+  <br>
+  ➧ Tinta
+  ➧15 euro lunar
+  <br>
+  <br>
+  ➧ Schimbare ID
+  Descriere: Poti sa iti schimbi ID-ul de pe server.
+  ➧ID SUB 1000 -10€
+  ➧ID SUB 500 - 20€
+  ➧ID SUB 200 - 30€
+  ➧ID SUB 100 - 50€
+  <br>
+  ➧ Numar masina personalizat
+  Descriere: Poti sa iti alegi un numar de inmatriculare personalizat pentru toate masinile pe care le ai.
+  5 euro ( o singura data pentru o masina)
+  </h3></center>
+
+  <!--<iframe src="https://discord.com/widget?id=652105059781312512&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>-->
+
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact" style="border-radius: 1.3%;">
+    
+    <h3 class="w3-center">💵 Metode de plată 💵</h3>
+    <hr>
+    <p>Metodele de plata disponibile sunt :
+      <br>
+      ➧Transfer Bancar
+      <br>
+      ➧ PayPal
+      <br>
+      ➧ Skrill
+      <br>
+      ➧ PaySafeCard
+      <br>
+      ➧ Revolut
+      <br>
+      ATENTIE: Nu raspundem de donatiile efecutate la alte persoane
+      <br>
+      Donatiile se fac doar la A n t o n y x #0001 & Alexito #0011
+      <br>
+      ➧ A n t o n y x #0001 ( Revolut, PayPal,Transfer Bancar )
+      <br>
+      ➧ Alexito #0011 ( Paysafe Card, Skrill )
+      <br>
+      Verificati de doua ori inainte sa trimiteti banii
+      <br>
+      Adresa PayPal : antonyx_69@yahoo.com
+      <br>
+      Adresa Skrill: nokia520sync@gmail.com
+    </p>
+
+    <b><p>Puteti cumpara rank-uri si alte lucruri de <a href="https://discord.gg/dCMc4rh8pt" target="_blank" class="w3-hover-text-green">aici.</a></p></b>
+    <br>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<br>
+
+<footer class="w3-center w3-dark-gray w3-padding-64">
+  <a href="#" class="w3-button w3-light-grey">Înapoi sus</a>
+  <p>Webiste facut de <a href="https://www.linkedin.com/in/giurgiu-victor-b7a6a11bb/" target="_blank" class="w3-hover-text-green">Vic Pitic</a></p>
+</footer>
+
+</body>
+</html>
